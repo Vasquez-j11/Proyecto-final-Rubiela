@@ -109,12 +109,44 @@ header{
     max-height: 550px;
 }
 #textyo{
-    color: #fff;
+    color: #e9e8e8;
     font-family: Abel;
 }
+#textyo:hover{
+    color: #B21F1A;
+}
+.tituyo{
+    font-family: Abel !important;
+    font-size: 25px !important;
+}
+.parrayo{
+    text-align: justify !important;
+}
+.yotrin{
+    background-color: #ffffffa9;
+    width: 100%;
+}
 #contyo{
-    
+    margin: auto;
     max-width: 250px;
+}
+.accordion{
+    display: flex;
+}
+.accordion-item{
+    background-color: rgba(78, 78, 78, 0.075);
+    border: none !important;
+}
+
+#trin{
+    background-color: transparent;
+    box-shadow: none;
+    display: block;
+    
+}
+.accordion-button::after{
+        width: 0;
+        color: #fff;
 }
 #contnaje{
     max-width: 250px;

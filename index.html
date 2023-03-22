@@ -89,16 +89,62 @@
         <div class="container-fluid ">
             <h1 class="titutrin text-center text-sm-center text-md-center text-lg-center">Equipo Wiqaya</h1>
             <div class="row d-flex justify-content-evenly align-items-center" id="contimg">
-
-                <div class="col-12 col-lg-6 p-3" id="contyo">
-                    <img class="img-fluid" src="./img/Santiagro.png" alt="">
-                    <h2 class="text-center text-sm-center text-md-center text-lg-center" id="textyo">Santiago</h2>
-                </div>
-                <div class="col-12 col-lg-6 p-3" id="contyo">
-                    <img class="img-fluid" src="./img/juanma.png" alt="">
-                    <h2 class="text-center text-sm-center text-md-center text-lg-center" id="textyo">Juan Manuel</h2>
+                <div class="accordion " id="accordionExample">
+                    <div class="col-12 col-sm-6 col-lg-6 p-3" id="contyo">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" id="trin" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <img src="./img/juanma.png" class="img-fluid " alt="...">
+                                        <h2 class="text-center text-sm-center text-md-center text-lg-center" id="textyo">Juan Manuel</h2>
+                    
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="card yotrin p-2">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center tituyo">Juan Manuel</h5>
+                                            <p class="card-text parrayo">Juan Manuel Acevedo centrado mas en el area de programacion y el programador en jefe.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-6 p-3" id="contyo">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" id="trin" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                                    <img src="./img/Santiagro.png" class="img-fluid " alt="...">
+                                    <h2 class="text-center text-sm-center text-md-center text-lg-center" id="textyo">Santiago</h2>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="card yotrin p-2">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center tituyo">Santiago</h5>
+                                            <p class="card-text parrayo">Santiago Vasquez centrado mas en el area de programacion y el programador en jefe.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
+
+
+
+
+
+
         </div>
         <div class="container-fluid">
             <h1 class="titutrin text-center text-sm-center text-md-center text-lg-center mt-5">Personajes Wiqaya</h1>
@@ -188,7 +234,7 @@
         <div class="row">
             <div class="col-12 d-flex align-items-center justify-content-center" id="btnxd">
                 <button type="button" class="btn " id="btnzy">
-                     Juega ahora!
+                    Juega ahora!
                 </button>
             </div>
         </div>
