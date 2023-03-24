@@ -13,7 +13,7 @@ body {
     background-color: #b2b1b153;
 }
 header{
-    position: fixed;
+   /*  background-color: #64636399; */
     width: 100%;
 }
 .logohead{
@@ -42,22 +42,30 @@ header{
 }
 
 .section1{
-    background-image: url(../img/stopxd.jpg);
-    max-height: 500vh;
-    min-height: 100vh;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+    
+    max-height: 300vh;
+    min-height: 50vh;
+    
     
 }
-.section2{
-    background-image: url(../img/tokionoche.jpg);
+.section2-2{
     
     max-height: 200vh;
-    min-height: 150vh;
-   background-position: center center;
+    min-height: 50vh;
+}
+.section2-1{
+    
+    max-height: 100vh;
+    min-height: 40vh;
+}
+.section2{
+    
+    
+    max-height: 100vh;
+    min-height: 50vh;
+    
     background-attachment: fixed;
-    background-size: cover;
+    
 }
 .section3{
     background-image: url(../img/motomo.jpg);
@@ -67,37 +75,63 @@ header{
     background-attachment: fixed;
     background-size: cover;
 }
-#cont{
-    background-color: #64636399 !important;
-    border-radius: 15px;
-    max-width: 530px !important;
-    min-width: 400px !important;
-    max-height: 630px;
-    min-height: 530px;
+.sectionvideo{
+       
+    max-height: 100vh;
+    min-height: 50vh;
 }
+
 .titulo1{
-    color: #801810;
+    color: #B21F1A;
     font-size: 50px;
     font-family: Abel ;
+}
+.titulo-1{
+    color: #B21F1A;
+    font-size: 40px;
+    font-family: Carolingia ;
+}
+.zi{
+    max-width: 700px;
+    
+    
+}
+#cont2{
+    max-width: 650px;
+}
+.zi2{
+    max-width: 650px;
+}
+.diavlo{
+    text-align: justify;
+    font-family: Abel;
+    color: #fff;
+    font-size: 20px;
 }
 .parrafo1{
     text-align: justify;
     font-family: Abel;
-    font-size: 25px;
-    color: #fff;
+    font-size: 20px;
+    color: #000;
+}
+.subtrin{
+    color: #B21F1A;
+    font-family: Abel;
 }
 .parrafo2{
     text-align: justify;
     font-family: Abel;
-    font-size: 25px;
-    color: #fff;
+    color: #000;
+    font-size: 20px;
+    max-width: 700px;
+    min-width: 300px;
 }
 .titucont{
     width: 100%;
     
 }
 .titutrin{
-    color: #fff;
+    color: #B21F1A;
     font-family: carolingia;
     font-size: 40px;
     margin: 0;
@@ -144,10 +178,7 @@ header{
     display: block;
     
 }
-.accordion-button::after{
-        width: 0;
-        color: #fff;
-}
+
 #contnaje{
     max-width: 250px;
 }
@@ -158,21 +189,25 @@ header{
     color: white;
     padding: 1em 5em;
     border-radius: 4px;
-    background-color: rgba(128, 24, 16, 0.8);
+    background-color: #801810cc;
     font-family: carolingia;
     font-size: 40px;
 }
 .subtxt{
-    font-family: Carolingia;
-    color: #fff;
-    font-size: 40px;
+    font-family: Abel;
+    color: #B21F1A;
+    font-size: 35px;
 }
 .subtxt:hover{
     color: #646262;
 }
+.subtxt2{
+    font-family: Abel;
+   color: #B21F1A;
+}
 .chimbilin{
     font-family: Abel;
-    color: #B21F1A;
+    color: #fff;
     
 }
 .card-title{
@@ -183,10 +218,17 @@ header{
 .card-text{
     font-family: Abel;
     font-size: 18px;
+    text-align: justify;
+    color: #fff;
 }
 #btnzy:hover{
     background-color: #941713c7;
 }
+
+
+
+
+
 footer{
     background-color: #b2b1b153;
 }
